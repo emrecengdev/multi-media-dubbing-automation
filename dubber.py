@@ -18,7 +18,7 @@ class GUI(wx.Panel):
 		super().__init__(parent)
 
 		# Labels
-		lbl_title = wx.StaticText(self, label="WeeaBlind")
+		lbl_title = wx.StaticText(self, label="Multi-media dubbing atuomation")
 		lbl_GPU = wx.StaticText(self, label=f"GPU Detected? {utils.gpu_detected}")
 		lbl_GPU.SetForegroundColour((0, 255, 0) if utils.gpu_detected else (255, 0, 0))
 		lbl_main_file = wx.StaticText(self, label="Choose a video file or link to a YouTube video:")
